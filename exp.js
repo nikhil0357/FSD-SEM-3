@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const student =[
     {id:1,name: "rahul",branch: "cse"},
-    {id:2,name: "aman",branch: "IT"}
+    {id:2,name: "nikhil",branch: "IT"}
 ];
 app.get('/students',(req, res) =>{
     res.json(students);
