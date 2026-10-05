@@ -12,7 +12,7 @@ const schema = buildSchema(`
 `);
 const root = {
     message: ()=> {
-        return "Hello Students! Welcome to GraphQL";
+        return "Hello Students! Welcome to GraphQL ";
     }
 };
 
