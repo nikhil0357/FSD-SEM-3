@@ -18,14 +18,14 @@ let products = [
     {
         id: 2,
         name: "Mobile Phone",
-        category: "Electronics ",
+        category: "Electronics",
         price: 25000,
         quantity: 20
     },
     {
         id: 3,
         name: "Keyboard",
-        category: "Accessories",
+        category: "Accessories ",
         price: 1200,
         quantity: 15
     }
