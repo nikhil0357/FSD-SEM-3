@@ -43,7 +43,7 @@ app.get("/products/:id", (req, res) => {
 
     if (!product) {
         return res.status(404).json({
-            message: "Product not found "
+            message: "Product not found"
         });
     }
 
@@ -56,7 +56,7 @@ app.post("/products", (req, res) => {
 
     if (!name || !category || price === undefined || quantity === undefined) {
         return res.status(400).json({
-            message: "All product fields are required"
+            message: "All product fields are  required"
         });
     }
 
