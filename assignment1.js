@@ -25,7 +25,7 @@ let products = [
     {
         id: 3,
         name: "Keyboard",
-        category: "Accessories ",
+        category: "Accessories",
         price: 1200,
         quantity: 15
     }
@@ -43,7 +43,7 @@ app.get("/products/:id", (req, res) => {
 
     if (!product) {
         return res.status(404).json({
-            message: "Product not found"
+            message: "Product not found "
         });
     }
 
