@@ -56,7 +56,7 @@ app.post("/products", (req, res) => {
 
     if (!name || !category || price === undefined || quantity === undefined) {
         return res.status(400).json({
-            message: "All product fields are  required"
+            message: "All product fields are required"
         });
     }
 
@@ -73,7 +73,7 @@ app.post("/products", (req, res) => {
     products.push(newProduct);
 
     res.status(201).json({
-        message: "Product added successfully",
+        message: "Product added  successfully",
         product: newProduct
     });
 });
