@@ -73,7 +73,7 @@ app.post("/products", (req, res) => {
     products.push(newProduct);
 
     res.status(201).json({
-        message: "Product added  successfully",
+        message: "Product added successfully",
         product: newProduct
     });
 });
@@ -87,7 +87,7 @@ app.put("/products/:id", (req, res) => {
 
     if (!product) {
         return res.status(404).json({
-            message: "Product not found"
+            message: "Product not  found"
         });
     }
 
