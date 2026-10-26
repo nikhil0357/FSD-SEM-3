@@ -12,7 +12,7 @@ const schema = buildSchema(`
 `);
 const root = {
     message: ()=> {
-        return "Hello Students! Welcome  to GraphQL ";
+        return "Hello Students! Welcome to GraphQL ";
     }
 };
 
@@ -25,5 +25,5 @@ app.use(
     })
 );
 app.listen(3000, () => {
-    console.log("GraphQL server is running on port 3000");
+    console.log("GraphQL server is running  on port 3000");
 });
