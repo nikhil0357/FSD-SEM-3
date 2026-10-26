@@ -25,5 +25,5 @@ app.use(
     })
 );
 app.listen(3000, () => {
-    console.log("GraphQL server is running on port  3000");
+    console.log("GraphQL server is running on port 3000");
 });
