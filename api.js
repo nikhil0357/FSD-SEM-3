@@ -7,7 +7,7 @@ const app = express();
 // Define a simple GraphQL schema
 const schema = buildSchema(`
     type Query {
-        message:  String
+        message: String
     }
 `);
 const root = {
@@ -25,5 +25,5 @@ app.use(
     })
 );
 app.listen(3000, () => {
-    console.log("GraphQL server is running on port 3000");
+    console.log("GraphQL server is running on port  3000");
 });
