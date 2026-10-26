@@ -118,7 +118,7 @@ app.delete("/products/:id", (req, res) => {
     const deletedProduct = products.splice(index, 1);
 
     res.json({
-        message: "Product deleted  successfully",
+        message: "Product deleted successfully",
         product: deletedProduct[0]
     });
 });
@@ -132,7 +132,7 @@ app.get("/products/category/:category", (req, res) => {
 
     if (filteredProducts.length === 0) {
         return res.status(404).json({
-            message: "No products found in this category"
+            message: "No products found  in this category"
         });
     }
 
