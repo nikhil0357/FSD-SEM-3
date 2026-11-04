@@ -82,7 +82,7 @@ app.put("/api/books/:id", (req, res) => {
     book.year = year;
 
     res.json({
-        message: "Book updated  successfully!",
+        message: "Book updated successfully!",
         book
     });
 });
@@ -96,7 +96,7 @@ app.delete("/api/books/:id", (req, res) => {
 
     if (!bookExists) {
         return res.status(404).json({
-            message: "Book not found."
+            message: "Book  not found."
         });
     }
 
