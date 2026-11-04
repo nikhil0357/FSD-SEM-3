@@ -19,12 +19,12 @@ let books = [
     {
         id: 2,
         title: "Atomic Habits",
-        author: "James  Clear",
+        author: "James Clear",
         year: 2018
     },
     {
         id: 3,
-        title: "Clean Code",
+        title: "Clean  Code",
         author: "Robert C. Martin",
         year: 2008
     }
