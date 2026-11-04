@@ -43,7 +43,7 @@ app.post("/api/books", (req, res) => {
 
     if (!title || !author || !year) {
         return res.status(400).json({
-            message: "Please  provide title, author and year."
+            message: "Please provide title, author and year."
         });
     }
 
@@ -57,7 +57,7 @@ app.post("/api/books", (req, res) => {
     books.push(newBook);
 
     res.status(201).json({
-        message: "Book added successfully!",
+        message: "Book  added successfully!",
         book: newBook
     });
 });
