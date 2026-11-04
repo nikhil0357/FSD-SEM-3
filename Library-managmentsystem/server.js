@@ -57,7 +57,7 @@ app.post("/api/books", (req, res) => {
     books.push(newBook);
 
     res.status(201).json({
-        message: "Book  added successfully!",
+        message: "Book added successfully!",
         book: newBook
     });
 });
@@ -71,7 +71,7 @@ app.put("/api/books/:id", (req, res) => {
 
     if (!book) {
         return res.status(404).json({
-            message: "Book not found."
+            message: "Book  not found."
         });
     }
 
