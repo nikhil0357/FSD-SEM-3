@@ -111,14 +111,14 @@ app.delete("/products/:id", (req, res) => {
 
     if (index === -1) {
         return res.status(404).json({
-            message: "Product not found"
+            message: "Product  not found"
         });
     }
 
     const deletedProduct = products.splice(index, 1);
 
     res.json({
-        message: "Product   deleted successfully",
+        message: "Product deleted successfully",
         product: deletedProduct[0]
     });
 });
