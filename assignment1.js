@@ -132,7 +132,7 @@ app.get("/products/category/:category", (req, res) => {
 
     if (filteredProducts.length === 0) {
         return res.status(404).json({
-            message: "No products found in this category"
+            message: "No products   found in this category"
         });
     }
 
