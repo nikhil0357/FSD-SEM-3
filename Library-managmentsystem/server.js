@@ -25,7 +25,7 @@ let books = [
     {
         id: 3,
         title: "Clean Code",
-        author: "Robert  C. Martin",
+        author: "Robert C. Martin",
         year: 2008
     }
 ];
@@ -43,7 +43,7 @@ app.post("/api/books", (req, res) => {
 
     if (!title || !author || !year) {
         return res.status(400).json({
-            message: "Please provide title, author and year."
+            message: "Please  provide title, author and year."
         });
     }
 
