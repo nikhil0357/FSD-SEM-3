@@ -24,8 +24,8 @@ let books = [
     },
     {
         id: 3,
-        title: "Clean  Code",
-        author: "Robert C. Martin",
+        title: "Clean Code",
+        author: "Robert  C. Martin",
         year: 2008
     }
 ];
