@@ -13,13 +13,13 @@ let books = [
     {
         id: 1,
         title: "The Alchemist",
-        author: "Paulo  Coelho",
+        author: "Paulo Coelho",
         year: 1988
     },
     {
         id: 2,
         title: "Atomic Habits",
-        author: "James Clear",
+        author: "James  Clear",
         year: 2018
     },
     {
