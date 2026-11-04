@@ -99,7 +99,7 @@ app.put("/products/:id", (req, res) => {
     product.quantity = quantity ?? product.quantity;
 
     res.json({
-        message: "Product updated successfully",
+        message: "Product updated  successfully",
         product: product
     });
 });
@@ -111,7 +111,7 @@ app.delete("/products/:id", (req, res) => {
 
     if (index === -1) {
         return res.status(404).json({
-            message: "Product  not found"
+            message: "Product not found"
         });
     }
 
